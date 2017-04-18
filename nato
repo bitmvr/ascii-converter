@@ -1,0 +1,84 @@
+#!/usr/bin/env bash
+
+character=$1
+
+case $character in
+  a|A)
+    echo "Alfa"
+  ;;
+  b|b)
+    echo "Bravo"
+  ;;
+  c|C)
+    echo "Charlie"
+  ;;
+  d|D)
+    echo "Delta"
+  ;;
+  e|E)
+    echo "Echo"
+  ;;
+  f|F)
+    echo "Foxtrot"
+  ;;
+  g|G)
+    echo "Golf"
+  ;;
+  h|H)
+    echo "Hotel"
+  ;;
+  i|I)
+    echo "India"
+  ;;
+  j|J)
+    echo "Juliett"
+  ;;
+  k|K)
+    echo "Kilo"
+  ;;
+  l|L)
+    echo "Lima"
+  ;;
+  m|M)
+    echo "Mike"
+  ;;
+  n|N)
+    echo "November"
+  ;;
+  o|O)
+    echo "Oscar"
+  ;;
+  p|P)
+    echo "Papa"
+  ;;
+  q|Q)
+    echo "Quebec"
+  ;;
+  r|R)
+    echo "Romeo"
+  ;;
+  s|S)
+    echo "Sierra"
+  ;;
+  t|T)
+    echo "Tango"
+  ;;
+  u|U)
+    echo "Uniform"
+  ;;
+  v|V)
+    echo "Victor"
+  ;;
+  w|W)
+    echo "Whiskey"
+  ;;
+  x|X)
+    echo "X-ray"
+  ;;
+  y|Y)
+    echo "Yankee"
+  ;;
+  z|Z)
+    echo "Zulu"
+  ;;
+esac
