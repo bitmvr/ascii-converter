@@ -1,0 +1,114 @@
+#!/usr/bin/env bash
+
+character=$1
+
+case $character in
+  a|A)
+    echo ".−"
+  ;;
+  b|b)
+    echo "−..."
+  ;;
+  c|C)
+    echo "−.−."
+  ;;
+  d|D)
+    echo "−.."
+  ;;
+  e|E)
+    echo "."
+  ;;
+  f|F)
+    echo "..−."
+  ;;
+  g|G)
+    echo "−−."
+  ;;
+  h|H)
+    echo "...."
+  ;;
+  i|I)
+    echo ".."
+  ;;
+  j|J)
+    echo ".−−−"
+  ;;
+  k|K)
+    echo "−.−"
+  ;;
+  l|L)
+    echo ".−.."
+  ;;
+  m|M)
+    echo "--"
+  ;;
+  n|N)
+    echo "-."
+  ;;
+  o|O)
+    echo "---"
+  ;;
+  p|P)
+    echo ".--."
+  ;;
+  q|Q)
+    echo "--.-"
+  ;;
+  r|R)
+    echo ".-."
+  ;;
+  s|S)
+    echo "..."
+  ;;
+  t|T)
+    echo "-"
+  ;;
+  u|U)
+    echo "..-"
+  ;;
+  v|V)
+    echo "...-"
+  ;;
+  w|W)
+    echo ".--"
+  ;;
+  x|X)
+    echo "-..-"
+  ;;
+  y|Y)
+    echo "-.--"
+  ;;
+  z|Z)
+    echo "-.."
+  ;;
+  1)
+    echo ".----"
+  ;;
+  2)
+    echo "..---"
+  ;;
+  3)
+    echo "...--"
+  ;;
+  4)
+    echo "....-"
+  ;;
+  5)
+    echo "....."
+  ;;
+  6)
+    echo "-...."
+  ;;
+  7)
+    echo "--..."
+  ;;
+  8)
+    echo "---.."
+  ;;
+  9)
+    echo "----."
+  ;;
+  0)
+    echo "-----"
+  ;;
+esac
