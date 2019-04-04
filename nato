@@ -6,7 +6,7 @@ case $character in
   a|A)
     echo "Alfa"
   ;;
-  b|b)
+  b|B)
     echo "Bravo"
   ;;
   c|C)
